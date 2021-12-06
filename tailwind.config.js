@@ -4,8 +4,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      'mobile': {'max': '500px'},
-      'desktop': {'min': '501px', },
+      'mobile': {'max': '375px'},
+      'desktop': {'min': '376px', },
     },
     extend: {
       backgroundImage: theme => ({
